@@ -1,0 +1,22 @@
+# Private keys and certificates
+*.key
+*.pem
+*.cakey
+*.relaycert
+ca/
+certs/
+
+# Compiled binaries
+bitchat-relay
+bitchat-relay-mipsle
+bitchat-relay-x86
+mesh-ca
+
+# Python
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
+testclient

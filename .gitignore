@@ -1,0 +1,45 @@
+# Android build artifacts
+build/
+.gradle/
+*.apk
+*.aab
+*.dex
+*.class
+local.properties
+captures/
+.externalNativeBuild/
+debug_keystore/
+*.keystore
+debug.keystore
+app/release/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Private keys and certificates
+*.key
+*.pem
+*.cakey
+*.relaycert
+WiFi_mesh/ca/
+WiFi_mesh/certs/
+
+# Compiled binaries
+WiFi_mesh/relay-daemon/bitchat-relay
+WiFi_mesh/relay-daemon/bitchat-relay-mipsle
+WiFi_mesh/relay-daemon/bitchat-relay-x86
+WiFi_mesh/relay-daemon/mesh-ca
+WiFi_mesh/relay-daemon/testclient
+
+# Python
+__pycache__/
+*.pyc
+
+# Nested git repos
+bitchat-android/.git/
+
+# OS junk
+.DS_Store
+Thumbs.db
